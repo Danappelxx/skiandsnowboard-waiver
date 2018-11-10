@@ -62,6 +62,16 @@ To support a system like this one, an MIT affiliate must obtain an account with
 elevated privileges to use Templates.
 
 
+Generating a new waiver revision
+--------------------------------
+1. Modify `waiver.tex`
+2. Run `make`, inspect output at `documents/YYYY-MM-DD.pdf`
+3. If satisfied, upload `docusign_templates/YYYY-MM-DD.json` to DocuSign
+   (Templates --> New --> Upload Template).
+4. Adjust any annotated fields (if necessary)
+5. Run `make clean` to remove `pdflatex` artifacts (optional)
+
+
 Related projects
 ----------------
 
