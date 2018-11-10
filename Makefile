@@ -2,7 +2,7 @@
 DOCUMENTS_DIR = documents
 
 PDFLATEX_JOBNAME = $(shell date +"%Y-%m-%d_waiver")
-BASE_TEMPLATE = ./docusign_templates/2018-03-01.json
+BASE_TEMPLATE = ./docusign_templates/2018-11-10.json
 
 
 .PHONY: waiver
