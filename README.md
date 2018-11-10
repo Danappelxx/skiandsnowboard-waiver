@@ -82,6 +82,21 @@ Related projects
 - [mitoc-ansible][repo-mitoc-ansible]: Server configuration for the above two projects.
 
 
+Screenshots
+-----------
+
+### Generated document in the DocuSign template editor
+![DocuSign template editor][img-edit-docusign-template]
+
+### Roles definition in DocuSign
+![Roles defined for the waiver][img-uploaded-template]
+
+### Pre-filling a waiver with profile information
+![Waiver completion UI from MITOC Trips][img-sign-authenticated]
+
+### Signing the release as a minor
+![Signing the release for participants under 18][img-sign-as-minor]
+
 
 
 [ist-docusign]: https://ist.mit.edu/docusign
@@ -99,3 +114,9 @@ Related projects
 [code-email-known]: https://github.com/DavidCain/mitoc-trips/blob/f887160bf6535cd396df8c59432fdc2e01e1be85/ws/waivers.py#L163
 [code-mitoc-member-callback]: https://github.com/DavidCain/mitoc-trips/blob/f8874847aaebd25c74e26bfb83a0334de4b37d94/ws/settings.py#L178
 [code-mutual-tls]: https://github.com/DavidCain/mitoc-ansible/blob/5fadcec355894ed58777dd1551df17400932a22d/roles/nginx/templates/member.j2#L70
+
+[img-edit-docusign-template]: https://dcain.me/static/images/mitoc-waiver/edit_docusign_template.png
+[img-sign-anonymously]: https://dcain.me/static/images/mitoc-waiver/sign_anonymously.png
+[img-sign-as-minor]: https://dcain.me/static/images/mitoc-waiver/sign_as_minor.png
+[img-sign-authenticated]: https://dcain.me/static/images/mitoc-waiver/sign_authenticated.png
+[img-uploaded-template]: https://dcain.me/static/images/mitoc-waiver/uploaded_template.png
