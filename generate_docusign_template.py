@@ -25,7 +25,7 @@ def new_template_from_old(previous_json_path, waiver_pdf_path):
     with open(waiver_pdf_path, "rb") as pdf:
         base64_pdf = base64.b64encode(pdf.read())
 
-    template['documents'][0]['documentBase64'] = base64_pdf
+    template['documents'][0]['documentBase64'] = base64_pdf.decode()
     return template
 
 
